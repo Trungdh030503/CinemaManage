@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="py-1">
+        <!-- style="background-color: white"-->
+        <div class="container" style="min-height: 800px;">
+
+            <h3>Products in cart</h3>
+            <table class="table" style="height: 100px">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Genres</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <input type="search" name="action" value="updateQuantity" hidden>
+                    <input type="search" name="pid" value="${c.product.productID}" hidden> -->
+                    <tr style="height: 60px">
+                        <th scope="row">1</th>
+                        <th scope="row">asddknk naind nqononv jnoqnfvo dq</th>
+                        <th scope="row">120 minute</th>
+                        <th scope="row">
+                           adg kdbiq qbedib
+                        </th>
+                        <th scope="row">genres</th>
+                        <th scope="row">
+                           VietNam
+                        </th>
+                        </th>
+                        <th scope="row">
+                            <button class="btn btn-outline-danger" type="button" class="btn btn-primary"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                    class="bi bi-trash-fill"></i>Delete
+                            </button>
+                        </th>
+                    </tr>
+                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-trash-fill"></i>
+                                        Delete</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you sure to delete this product?
+                                </div>
+                                <div class="modal-footer">
+                                    <form action="ActionCart" method="GET">
+                                        <input type="search" value="delete" name="action" hidden>
+                                        <!-- <input type="search" value="${c.product.productID}" name="pid" hidden> -->
+                                        <button type="submit" class="btn btn-primary">Yes</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">No</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-between ">
+                <a href="Cart?action=contact" class="btn btn-outline-success ">Add more film</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

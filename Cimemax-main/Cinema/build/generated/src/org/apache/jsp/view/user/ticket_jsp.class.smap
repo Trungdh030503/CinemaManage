@@ -1,0 +1,38 @@
+SMAP
+ticket_jsp.java
+JSP
+*S JSP
+*F
++ 0 ticket.jsp
+view/user/ticket.jsp
++ 1 setupCss.jsp
+view/user/../component/setupCss.jsp
++ 2 header.jsp
+view/user/../component/header.jsp
++ 3 footer.jsp
+view/user/../component/footer.jsp
+*L
+5,9:64
+5#1,41:73
+13#0,4:113
+1#2,5:117
+9,47:121
+55:326,8
+56,4:334
+59,2:170
+60:356,8
+61,4:364
+64,11:174
+16#0,17:184
+32:386,11
+33:397
+34,3:398,3
+37,2:407
+38:439,11
+39:450,3
+40:453
+40,4:411
+43,9:203
+5#3,94:212
+51#0,4:305
+*E
